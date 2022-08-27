@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { UserAuth } from '../../context/AuthContext';
 
+
+
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -20,6 +22,8 @@ const Login = () => {
       setError(error.message)
     }
   };
+
+  // lame html error msg 
 
   return (
     <div className='w-full h-screen'>

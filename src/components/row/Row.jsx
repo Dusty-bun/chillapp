@@ -19,7 +19,7 @@ const Row = ({ title, fetchURL, rowID }) => {
   const slideRight = () => {
     var slider = document.getElementById('slider' + rowID);
     slider.scrollLeft = slider.scrollLeft + 500;
-  };
+  }; 
 
   return (
     <>
